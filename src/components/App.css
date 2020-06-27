@@ -1,0 +1,29 @@
+body {
+  background: lightgoldenrodyellow;
+}
+.spin {
+  position: absolute !important;
+  top: 160px !important;
+  left: 48% !important;
+}
+.__postedbottom__ {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: 1px solid grey;
+}
+.__postitemtitle__ {
+  color: black !important;
+}
+.__postedby__ {
+  color: red !important;
+}
+.__posttime__ {
+  color: grey;
+}
+.pagination {
+  overflow-x: hidden !important;
+  margin: 2rem 1rem !important;
+}
+.footer {
+  text-align: center;
+}
